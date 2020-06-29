@@ -22,7 +22,7 @@
 		</javaTypeResolver>
 
 		<!-- 制定JavaBean的生成目录 -->
-		<javaModelGenerator targetPackage="com.copasso.billbook.bean"
+		<javaModelGenerator targetPackage="com.xxx.billbook.bean"
 			targetProject=".\src\main\java">
 			<property name="enableSubPackages" value="true" />
 			<property name="trimStrings" value="true" />
@@ -36,7 +36,7 @@
 
 		<!-- 制定DAO接口生成的位置 -->
 		<javaClientGenerator type="XMLMAPPER"
-			targetPackage="com.copasso.billbook.dao" targetProject=".\src\main\java">
+                             targetPackage="com.xxx.billbook.dao" targetProject=".\src\main\java">
 			<property name="enableSubPackages" value="true" />
 		</javaClientGenerator>
 
